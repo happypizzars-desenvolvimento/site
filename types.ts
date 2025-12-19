@@ -1,3 +1,4 @@
+
 export interface PizzaFlavor {
   name: string;
   description?: string;
@@ -7,9 +8,13 @@ export interface PizzaFlavor {
 }
 
 export interface PricingTier {
+  title?: string;
   hours: number;
   price: number;
   description: string;
+  features?: string[];
+  isSpecial?: boolean;
+  isPopular?: boolean;
 }
 
 export enum SectionId {

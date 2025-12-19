@@ -2,12 +2,12 @@ import React from 'react';
 import { SectionId } from '../types';
 
 const GALLERY_IMAGES = [
-  "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1593560708920-638928bad3d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1574126154517-d1e0d89e7344?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+  "https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80", // Preparo
+  "https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80", // Fatia close
+  "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80", // Forno
+  "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80", // Vegetais
+  "https://images.unsplash.com/photo-1576458088443-04a19bb13da6?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80", // Pepperoni close
+  "https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80", // Mesa posta
 ];
 
 export const Gallery: React.FC = () => {
