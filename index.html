@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Pizzas - A experiência que transforma seu evento</title>
+    <meta name="description" content="Leve a Happy Pizzas para o seu evento. Rodízio de pizzas no conforto do seu local." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Shrikhand&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              happy: {
+                green: '#022c22', // Deep forest green from catalog
+                cream: '#fef3c7', // Cream/Beige from catalog
+                accent: '#d97706', // Gold/Orange for accents
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              retro: ['Shrikhand', 'cursive'],
+            },
+            animation: {
+              'scroll': 'scroll 30s linear infinite',
+              'bounce-slow': 'bounce 3s infinite',
+              'ken-burns': 'kenBurns 20s ease-out infinite alternate',
+            },
+            keyframes: {
+              scroll: {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(-50%)' },
+              },
+              kenBurns: {
+                '0%': { transform: 'scale(1)' },
+                '100%': { transform: 'scale(1.1)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for a premium feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #022c22;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #fef3c7;
+        border-radius: 4px;
+      }
+      .checker-pattern {
+        background-image: repeating-linear-gradient(45deg, #022c22 25%, transparent 25%, transparent 75%, #022c22 75%, #022c22), repeating-linear-gradient(45deg, #022c22 25%, transparent 25%, transparent 75%, #022c22 75%, #022c22);
+        background-position: 0 0, 10px 10px;
+        background-size: 20px 20px;
+        opacity: 0.1;
+      }
+      .writing-vertical-rl {
+        writing-mode: vertical-rl;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
